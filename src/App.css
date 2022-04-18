@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 
+overflow-wrap
+white-space
+word-break
+*/
+
+body {
+  font-family: sans-serif, "Space Mono", monospace;
+  color: white;
+  background-color: #13133a;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr min(500px, 100%) 1fr;
+}
+
+.inner-container {
+  grid-column: 2;
+}
+
+.app-header {
+  margin-top: 64px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.theme-switcher button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-family: "MonoSpace", monospace;
+  cursor: pointer;
+}
+.search-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #203060;
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 24px;
+}
+
+.search-input-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.search-input-wrapper,
+.search-input-wrapper input {
+  width: 100%;
+}
+
+.search-wrapper input {
+  margin-left: 8px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.search-wrapper input::placeholder,
+.search-wrapper input {
+  color: lightgrey;
+}
+.search-button {
+  background-color: blue;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  background-color: #203060;
+  border-radius: 8px;
+}
+
+.user-img {
+  flex-shrink: 0;
+  width: 20%;
+  padding-left: 24px;
+  padding-top: 24px;
+  height: 150px;
+  border-radius: 9999px;
+}
+
+.user-img img {
+  width: 85px;
+  height: 85px;
+  border-radius: 9999px;
+}
+
+.user-info {
+  width: 80%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info-header {
+  display: flex;
+  justify-content: space-between;
+}
+.user-info-header .user-name h2 {
+  font-weight: 700;
+}
+.user-info-header .user-name p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  color: darkcyan;
+}
+
+.join-date p {
+  font-size: 14px;
+  color: lightgrey;
+}
+
+.user-bio p {
+  font-size: 14px;
+  color: lightgrey;
+  margin-bottom: 24px;
+}
+.metrics {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #13133a;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.user-metric-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.metric-header {
+  font-size: 14px;
+  color: lightgray;
+}
+
+.metric-number {
+  font-weight: 600;
+}
+
+.user-meta {
+  margin-top: 24px;
+
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-meta-item {
+  color: lightgray;
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.user-meta-item svg {
+  font-size: 16px;
+  color: white;
+}
+
+.user-meta-item:not(:nth-last-child(-n + 2)) {
+  margin-bottom: 24px;
+}
+
+.light-theme {
+  background-color: azure;
+  color: #13133a;
+}

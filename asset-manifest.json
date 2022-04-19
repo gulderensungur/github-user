@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ef60a31.css",
-    "main.js": "/static/js/main.742c955f.js",
-    "static/js/787.ec1cf1f6.chunk.js": "/static/js/787.ec1cf1f6.chunk.js",
-    "static/media/Octocat.jpg": "/static/media/Octocat.2444c54fd88ae684e5a7.jpg",
-    "index.html": "/index.html",
-    "main.7ef60a31.css.map": "/static/css/main.7ef60a31.css.map",
-    "main.742c955f.js.map": "/static/js/main.742c955f.js.map",
-    "787.ec1cf1f6.chunk.js.map": "/static/js/787.ec1cf1f6.chunk.js.map"
+    "main.css": "/github-user/static/css/main.7ef60a31.css",
+    "main.js": "/github-user/static/js/main.d905cc87.js",
+    "static/js/787.ec1cf1f6.chunk.js": "/github-user/static/js/787.ec1cf1f6.chunk.js",
+    "static/media/Octocat.jpg": "/github-user/static/media/Octocat.2444c54fd88ae684e5a7.jpg",
+    "index.html": "/github-user/index.html",
+    "main.7ef60a31.css.map": "/github-user/static/css/main.7ef60a31.css.map",
+    "main.d905cc87.js.map": "/github-user/static/js/main.d905cc87.js.map",
+    "787.ec1cf1f6.chunk.js.map": "/github-user/static/js/787.ec1cf1f6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ef60a31.css",
-    "static/js/main.742c955f.js"
+    "static/js/main.d905cc87.js"
   ]
 }
